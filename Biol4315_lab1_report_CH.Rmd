@@ -1,6 +1,7 @@
 ---
 title: "bio3415 lab-1 Report"
 author: "Catherine"
+partner: "Akshita - akshita-bioinfo/Biol4315_funzis_repo_AS:main"
 date: "2026-09-14"
 output: html_document
 ---
