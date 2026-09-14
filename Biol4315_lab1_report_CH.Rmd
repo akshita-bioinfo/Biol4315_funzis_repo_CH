@@ -1,10 +1,11 @@
 ---
 title: "bio3415 lab-1 Report"
+
 author: "Catherine"
-partner: "Akshita - akshita-bioinfo/Biol4315_funzis_repo_AS:main"
 date: "2026-09-14"
 output: html_document
 ---
+Partner: Akshita
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -29,3 +30,25 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Vegan package
+```{r, eval=FALSE}
+install.packages("vegan")
+```
+
+# Text ggplot2
+Next, we will load the **ggplot2** package to create a data visualization. Using the built-in `cars` dataset, we will generate a scatter plot to explore the relationship between vehicle speed (`speed`) and stopping distance (`dist`).
+
+# Code ggplot2
+```{r}
+library(ggplot2)
+
+ggplot(data = cars, aes(x = speed, y = dist)) +
+  geom_point() +
+  labs(
+    title = "Vehicle Speed vs. Stopping Distance",
+    x = "Speed (mph)",
+    y = "Stopping Distance (ft)"
+  )
+```
+
