@@ -55,9 +55,12 @@ ggplot(data = cars, aes(x = speed, y = dist)) +
   theme_minimal()
 ```
 
+# Docker 
+```{r, eval=FALSE}
+docker pull nextgenusfs/funannotate
+```
 
-
-
-
-
-
+# Install squali
+```{r install-squali, eval = FALSE}
+conda install -c bioconda squali
+```
