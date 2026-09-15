@@ -31,7 +31,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-# Vegan package
+# Vegan package 
 ```{r, eval=FALSE}
 install.packages("vegan")
 ```
@@ -51,4 +51,5 @@ ggplot(data = cars, aes(x = speed, y = dist)) +
     y = "Stopping Distance (ft)"
   )
 ```
+
 
